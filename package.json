@@ -1,7 +1,8 @@
 {
-  "name": "blk-design-system-react",
+  "homepage": "http://chrisnguyen5.github.io/resume",
+  "name": "Resume",
   "version": "1.0.0",
-  "description": "React version of BLK Design System by Creative Tim",
+  "description": "React Resume",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -9,33 +10,17 @@
   },
   "keywords": [
     "react",
-    "reactjs",
-    "blk",
-    "blk-react",
-    "design",
-    "design-react",
-    "system",
-    "system-react",
-    "design-system",
-    "design-system-react",
-    "blk-design",
-    "blk-design-react",
-    "blk-system",
-    "blk-system-react",
-    "blk-design-system",
-    "blk-design-system-react"
+    "reactjs"
+    
   ],
-  "author": "Creative Tim",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/blk-design-system-react/issues"
-  },
-  "homepage": "https://chrisnguyen5.github.io/resume",
+  
+  
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "chart.js": "2.7.3",
     "classnames": "2.2.6",
     "moment": "2.24.0",
-    "node-sass": "4.11.0",
+    "node-sass": "^4.14.1",
     "nouislider": "13.1.1",
     "perfect-scrollbar": "1.4.0",
     "react": "16.8.3",
@@ -45,9 +30,12 @@
     "react-dom": "16.8.3",
     "react-router-dom": "4.3.1",
     "react-scripts": "2.1.5",
-    "reactstrap": "7.1.0"
+    "reactstrap": "7.1.0",
+    "sass": "^1.26.8"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -65,5 +53,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }

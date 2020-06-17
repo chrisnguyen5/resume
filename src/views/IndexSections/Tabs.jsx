@@ -6,6 +6,7 @@
 
 import React from "react";
 import classnames from "classnames";
+
 // reactstrap components
 import {
   TabContent,
@@ -73,7 +74,7 @@ class Tabs extends React.Component {
                         onClick={e => this.toggleTabs(e, "iconTabs", 2)}
                         href="#pablo"
                       >
-                        <i className="fas fa-magic" />
+                        <i className="fa fa-edit" />
                         &nbsp; Design 
                       </NavLink>
                     </NavItem>
@@ -99,27 +100,27 @@ class Tabs extends React.Component {
                       
                 <tbody className="text-center">
                   <tr>
-                <td><i class="fab fa-html5 fa-lg"></i><br />HTML5</td>
-                 <td><i class="fab fa-css3-alt fa-lg"></i><br />CSS3</td>
-                  <td><i class="fab fa-sass fa-lg"></i><br />SASS</td>
+                <td><i class="fab fa-html5 fa-lg" style={{fontSize:35}}></i><br />HTML5</td>
+                 <td><i class="fab fa-css3-alt fa-lg" style={{fontSize:35}}></i><br />CSS3</td>
+                  <td><i class="fab fa-sass fa-lg" style={{fontSize:35}}></i><br />SASS</td>
                   </tr>
                   <tr>
-                <td><i class="fas fa-mobile-alt fa-lg"></i><br />Bootstrap</td>
-                 <td><i class="fab fa-js fa-lg"></i><br />Javascript</td>
-                  <td><i class="fab fa-react fa-lg"></i><br />React</td>
+                <td><i class="fa fa-mobile fa-lg" style={{fontSize:35}}></i><br />Bootstrap</td>
+                 <td><i class="fab fa-js fa-lg" style={{fontSize:35}}></i><br />Javascript</td>
+                  <td><i class="fab fa-react fa-lg" style={{fontSize:35}}></i><br />React</td>
                   </tr>
                    <tr>
                 
-                 <td><i class="fab fa-codepen fa-lg"></i><br />jQuery </td>
-                 <td><i class="fas fa-code fa-lg"></i><br />Handlebars.JS </td>
-                 <td><i class="fab fa-php fa-lg"></i><br />PHP</td>
+                 <td><i class="fas fa-dollar-sign fa-lg" style={{fontSize:35}}></i><br />jQuery </td>
+                 <td><i class="fas fa-code fa-lg" style={{fontSize:35}}></i><br />Handlebars.JS </td>
+                 <td><i class="fab fa-php fa-lg" style={{fontSize:35}}></i><br />PHP</td>
                   </tr>
                   <tr>
                 
 
-                 <td><i class="fab fa-npm fa-lg"></i><br />NPM</td>
-                 <td><i class="fab fa-node fa-lg"></i><br />Node</td>
-                 <td><i class="fab fa-github fa-lg"></i><br />Github </td> 
+                 <td><i class="fab fa-npm fa-lg" style={{fontSize:35}}></i><br />NPM</td>
+                 <td><i class="fab fa-node fa-lg" style={{fontSize:35}}></i><br />Node</td>
+                 <td><i class="fab fa-github fa-lg" style={{fontSize:35}}></i><br />Github </td> 
                  
                   </tr>
                </tbody>
@@ -136,9 +137,9 @@ class Tabs extends React.Component {
                       
                 <tbody className="text-center">
                   <tr>
-                <td><i class="far fa-object-group fa-lg"></i><br />Adobe Apps</td>
-                 <td><i class="far fa-gem fa-lg"></i><br />Sketch</td>
-                 <td><i class="fab fa-wordpress-simple fa-lg"></i><br />Wordpress</td>
+                <td><i class="far fa-object-group fa-lg" style={{fontSize:35}}></i><br />Adobe Apps</td>
+                 <td><i class="far fa-gem fa-lg" style={{fontSize:35}}></i><br />Sketch</td>
+                 <td><i class="fab fa-wordpress-simple fa-lg" style={{fontSize:35}}></i><br />Wordpress</td>
                 
                   </tr>
                   

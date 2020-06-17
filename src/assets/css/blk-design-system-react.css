@@ -1071,10 +1071,10 @@ pre {
   padding: 0.3rem; }
 
 .table-bordered {
-  border: 0.0625rem solid #e3e3e3; }
+  border: 0.0625rem solid #c59a6d; }
   .table-bordered th,
   .table-bordered td {
-    border: 0.0625rem solid #e3e3e3; }
+    border: 0.0625rem solid #c59a6d; }
   .table-bordered thead th,
   .table-bordered thead td {
     border-bottom-width: 0.125rem; }
@@ -12731,7 +12731,7 @@ hr {
   position: relative;
   padding-bottom: 100px; }
   .blur-hover .blur-item {
-    transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: 2s cubic-bezier(0.19, 1, 0.22, 1);
     will-change: transform;
     filter: blur(0);
     opacity: 1; }

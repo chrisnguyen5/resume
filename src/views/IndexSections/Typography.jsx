@@ -36,7 +36,7 @@ class Typography extends React.Component {
                 </div>
                  <div className="typography-line">
                   <p>
-                    <span>August 2019 - Present</span>
+                    <span>August 2019 - February 2020</span>
                     Works with all Adobe design applications and modern front end technologies to create innovative charts, graphs, and interactive web interfaces on existing web applications. Collaboration involves data scientists and full-stack developers to build out data visualization primarly for the student dashbaords site across all CSU campuses. Technologies include HTML5, CSS3, custom and modern Javascript (ES6), Bootstrap, and Material Design.
                   </p>
                 </div>
